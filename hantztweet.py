@@ -4,12 +4,13 @@
 '''
 Author: Hantzley Tauckoor
 Date: 1 July 2017
-Version: 1
+Version: 1.1
 Description: Sample script to access Twitter API
 '''
 import json
 import oauth2 as oauth
 from tokens import Consumer_Key, Consumer_Secret, Access_Token, Access_Token_Secret
+import os
 
 consumer = oauth.Consumer(key=Consumer_Key,secret=Consumer_Secret)
 Oauth_Access_Token = oauth.Token(key=Access_Token, secret=Access_Token_Secret)
